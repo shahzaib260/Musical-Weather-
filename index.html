@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+
+
+
+
+    <div class="main">
+
+
+      <div class="card">
+
+        <div class="nav">
+          <h1>Musical Weather</h1>
+          <div class="links">
+            <a href="index.html">Weather</a>
+            <a href="#">About</a>
+          </div>
+
+        </div>
+
+
+        <div class="search">
+          <input type="text" placeholder="Search City" spellcheck="false" />
+          <button><img src="search.png" alt="" /></button>
+        </div>
+
+
+
+        <div class="weather">
+          <img src="clear.png" class="icon" />
+          <h1 class="temp">Temperature</h1>
+          <h2 class="city">City</h2>
+          <p class="cond">Condition</p>
+        </div>
+
+
+
+
+        <div class="details">
+
+
+          <div class="col">
+            <img src="humidity.png" alt="" />
+            <div>
+              <p class="humidity">N/A</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+
+
+
+          <div class="col">
+            <img src="wind.png" alt="" />
+            <div>
+              <p class="wind">N/A</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+
+        <div id="songBox">
+          <h2>Song Suggestion</h2>
+          <p id="weather-condition">Weather: <span id="current-weather">Sunny</span></p>
+          <p id="song">
+            Suggested Song: <a id="song-link" href="#" target="_blank">Enter Location First!</a>
+          </p>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
